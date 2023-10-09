@@ -8,7 +8,7 @@ button.addEventListener("click", (e) => {
   let defaultValue = {
     name: nameInput.value,
     price: priceInput.value,
-    stock: stock.value,
+    stock: stockInput.value,
   };
 
   axios
